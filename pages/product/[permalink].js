@@ -4,7 +4,7 @@ import { commerce } from '../../lib/commerce';
 
 export default function Detail({ product }) {
     return (
-        <Layout title={product.name}>
+        <Layout title={product?.name}>
           <ProductDetail product={product} />
         </Layout>
     )
